@@ -3,17 +3,24 @@ body{
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+a, .secondary{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .bold{
     font-weight: bold;
 }
 
 .header, .footer{
     background-color: #1F2937;
-    color: white;
-    padding: 8px 120px 120px;
 }
 
 /* Header CSS */
+.header{    
+    padding: 8px 240px 120px;
+}
 
 .sup, .inf{
     display: flex;
@@ -21,17 +28,18 @@ body{
 
 .sup{
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    align-items: center;
 }
 
 .sup p{
-    margin-top: 0;
+    margin: 0;
 }
 
 .inf{
     align-items: center;
     justify-content: space-between;
-    gap: 8px;
+    gap: 64px;
 }
 
 
@@ -49,24 +57,49 @@ img{
     border: 5px solid red;
 }
 
-.footer{
-    text-align: center;
-}
-
 #left-inf{
-    width: 400px;
-    height: 150px;
+    width: 40%;
+    height: 270px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #right-inf{
-    background-color: #E5E7EB;
-    color: black;
+    width: 60%;
+    height: 270px;
+    background-color: gray;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 150px;
+}
+
+.main{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.blue-button{
+    padding: 4px 32px;
+    background-color: rgb(13,110,253);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    align-items: center;
+}
+
+/* Footer CSS */
+
+.footer{
+    text-align: center;
 }
