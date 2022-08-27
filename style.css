@@ -171,8 +171,43 @@ blockquote p{
     margin-top: 0;
 }
 
+/* Announce CSS */
+
+.announce{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcement{
+    padding: 16px 32px;
+    background-color: #3882F6;
+    display: flex;
+    gap: 28px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+}
+
+.announces{
+    display: flex;
+    flex-direction: column;
+}
+
+div .blue-button{
+    border: 2px solid white;
+}
+
+.announces h2{
+    margin-bottom: 0;
+}
+
 /* Footer CSS */
 
 .footer{
+    background-color: white;
     text-align: center;
 }
