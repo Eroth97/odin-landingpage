@@ -3,13 +3,6 @@ body{
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Temporal */
-.div-work{
-    border: 5px solid red;
-}
-
-
-
 a, .secondary{
     text-decoration: none;
     font-size: 18px;
@@ -208,6 +201,7 @@ div .blue-button{
 /* Footer CSS */
 
 .footer{
-    background-color: white;
+    padding: 8px;
     text-align: center;
+    color: white;
 }
